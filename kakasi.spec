@@ -9,6 +9,7 @@ Source0:	ftp://kakasi.namazu.org/pub/kakasi/stable/%{name}-%{version}.tar.gz
 # Source0-md5:	4eff51aafbd56c9635791a20c03efa8f
 URL:		http://kakasi.namazu.org/
 BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -74,6 +75,7 @@ Podstawowy s³ownik KAKASI.
 %setup -q
 
 %build
+cp /usr/share/automake/config.sub .
 %{__autoconf}
 %configure
 %{__make}
