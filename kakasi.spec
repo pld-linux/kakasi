@@ -25,7 +25,7 @@ KAKASI ¤Ï´Á»ú¤«¤Ê¤Þ¤¸¤êÊ¸¤ò¤Ò¤é¤¬¤ÊÊ¸¤ä¥í¡¼¥Þ»úÊ¸¤ËÊÑ´¹¤¹¤ë¤³¤È¤ò
 %description -l pl
 KAKASI to filtr konwertuj±cy japoñskie znaki Kanji na Hiragana,
 Katakana lub Romaji(1), który mo¿e byæ pomocny przy czytaniu
-japoñskich dokuemntów. Od wersji 2.3.0 zawiera poprawkê na dzielenie
+japoñskich dokumentów. Od wersji 2.3.0 zawiera poprawkê na dzielenie
 s³ów.
 
 %package devel
