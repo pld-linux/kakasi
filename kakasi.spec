@@ -73,8 +73,6 @@ Podstawowy s³ownik KAKASI.
 %setup -q
 
 %build
-#libtoolize --copy --force
-#CFLAGS="$RPM_OPT_FLAGS" ./configure --prefix=%prefix
 %{__autoconf}
 %configure
 %{__make}
@@ -87,9 +85,6 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_mandir}/ja/man1
 install doc/kakasi.1 $RPM_BUILD_ROOT%{_mandir}/ja/man1
 
-gzip -9nf AUTHORS NEWS ONEWS README README-ja THANKS TODO \
-	doc/{JISYO,README.{lib,wakati}}
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
@@ -98,8 +93,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc {AUTHORS,NEWS,README,THANKS}.gz
-%lang(ja) %doc {NEWS,ONEWS,README-ja,TODO,doc/JISYO,doc/README*}.gz
+%doc AUTHORS NEWS README THANKS
+%lang(ja) %doc NEWS ONEWS README-ja TODO doc/JISYO doc/README.lib doc/README.wakati
 %attr(755,root,root) %{_bindir}/[^k]*
 %attr(755,root,root) %{_bindir}/kakasi
 %attr(755,root,root) %{_libdir}/libkakasi.so.*.*
