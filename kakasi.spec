@@ -75,7 +75,7 @@ Podstawowy s³ownik KAKASI.
 %build
 #libtoolize --copy --force
 #CFLAGS="$RPM_OPT_FLAGS" ./configure --prefix=%prefix
-autoconf
+%{__autoconf}
 %configure
 %{__make}
 
