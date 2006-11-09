@@ -32,7 +32,7 @@ s³ów.
 Summary:	KAKASI header files
 Summary(pl):	Pliki nag³ówkowe KAKASI
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 
 %description devel
 KAKASI header files.
@@ -47,7 +47,7 @@ Pliki nag³ówkowe KAKASI.
 Summary:	KAKASI static library
 Summary(pl):	Statyczna biblioteka KAKASI
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 KAKASI static library.
@@ -60,7 +60,7 @@ Summary:	The base dictionary of KAKASI
 Summary(pl):	Podstawowy s³ownik KAKASI
 Group:		Applications/Text
 Obsoletes:	kakasidict
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 
 %description dict
 The base dictionary of KAKASI.
