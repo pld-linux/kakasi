@@ -1,5 +1,5 @@
 Summary:	KAKASI - kanji kana simple inverter
-Summary(pl):	KAKASI - prosty konwerter kanji - kana
+Summary(pl.UTF-8):   KAKASI - prosty konwerter kanji - kana
 Name:		kakasi
 Version:	2.3.4
 Release:	2
@@ -17,47 +17,47 @@ KAKASI is the language processing filter to convert Kanji characters
 to Hiragana, Katakana or Romaji(1) and may be helpful to read Japanese
 documents. Word-splitting patch has merged from version 2.3.0.
 
-%description -l ja
-KAKASI ¤Ï´Á»ú¤«¤Ê¤Ş¤¸¤êÊ¸¤ò¤Ò¤é¤¬¤ÊÊ¸¤ä¥í¡¼¥Ş»úÊ¸¤ËÊÑ´¹¤¹¤ë¤³¤È¤ò
-ÌÜÅª¤È¤·¤ÆºîÀ®¤·¤¿¥×¥í¥°¥é¥à¤È¼­½ñ¤ÎÁí¾Î¤Ç¤¹¡£¤µ¤é¤Ë¡¢¥Ğ¡¼¥¸¥ç¥ó 2.3.0
-¤«¤é¤Ï¡¢Ê¬¤«¤Á½ñ¤­¥Ñ¥Ã¥Á¤¬¥Ş¡¼¥¸¤µ¤ì¤Ş¤·¤¿¡£
+%description -l ja.UTF-8
+KAKASI ã¯æ¼¢å­—ã‹ãªã¾ã˜ã‚Šæ–‡ã‚’ã²ã‚‰ãŒãªæ–‡ã‚„ãƒ­ãƒ¼ãƒå­—æ–‡ã«å¤‰æ›ã™ã‚‹ã“ã¨ã‚’
+ç›®çš„ã¨ã—ã¦ä½œæˆã—ãŸãƒ—ãƒ­ã‚°ãƒ©ãƒ ã¨è¾æ›¸ã®ç·ç§°ã§ã™ã€‚ã•ã‚‰ã«ã€ãƒãƒ¼ã‚¸ãƒ§ãƒ³ 2.3.0
+ã‹ã‚‰ã¯ã€åˆ†ã‹ã¡æ›¸ããƒ‘ãƒƒãƒãŒãƒãƒ¼ã‚¸ã•ã‚Œã¾ã—ãŸã€‚
 
-%description -l pl
-KAKASI to filtr konwertuj±cy japoñskie znaki Kanji na Hiragana,
-Katakana lub Romaji(1), który mo¿e byæ pomocny przy czytaniu
-japoñskich dokumentów. Od wersji 2.3.0 zawiera poprawkê na dzielenie
-s³ów.
+%description -l pl.UTF-8
+KAKASI to filtr konwertujÄ…cy japoÅ„skie znaki Kanji na Hiragana,
+Katakana lub Romaji(1), ktÃ³ry moÅ¼e byÄ‡ pomocny przy czytaniu
+japoÅ„skich dokumentÃ³w. Od wersji 2.3.0 zawiera poprawkÄ™ na dzielenie
+sÅ‚Ã³w.
 
 %package devel
 Summary:	KAKASI header files
-Summary(pl):	Pliki nag³ówkowe KAKASI
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe KAKASI
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 KAKASI header files.
 
-%description devel -l ja
-KAKASI¤Î¥Ø¥Ã¥À¥Õ¥¡¥¤¥ëµÚ¤Ó¥é¥¤¥Ö¥é¥ê¤Ç¤¹¡£
+%description devel -l ja.UTF-8
+KAKASIã®ãƒ˜ãƒƒãƒ€ãƒ•ã‚¡ã‚¤ãƒ«åŠã³ãƒ©ã‚¤ãƒ–ãƒ©ãƒªã§ã™ã€‚
 
-%description devel -l pl
-Pliki nag³ówkowe KAKASI.
+%description devel -l pl.UTF-8
+Pliki nagÅ‚Ã³wkowe KAKASI.
 
 %package static
 Summary:	KAKASI static library
-Summary(pl):	Statyczna biblioteka KAKASI
+Summary(pl.UTF-8):   Statyczna biblioteka KAKASI
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 KAKASI static library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Biblioteka statyczna KAKASI.
 
 %package dict
 Summary:	The base dictionary of KAKASI
-Summary(pl):	Podstawowy s³ownik KAKASI
+Summary(pl.UTF-8):   Podstawowy sÅ‚ownik KAKASI
 Group:		Applications/Text
 Obsoletes:	kakasidict
 Requires:	%{name} = %{version}-%{release}
@@ -65,11 +65,11 @@ Requires:	%{name} = %{version}-%{release}
 %description dict
 The base dictionary of KAKASI.
 
-%description dict -l ja
-KAKASI¤Î´ğËÜ¼­½ñ¤Ç¤¹¡£
+%description dict -l ja.UTF-8
+KAKASIã®åŸºæœ¬è¾æ›¸ã§ã™ã€‚
 
-%description dict -l pl
-Podstawowy s³ownik KAKASI.
+%description dict -l pl.UTF-8
+Podstawowy sÅ‚ownik KAKASI.
 
 %prep
 %setup -q
