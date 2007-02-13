@@ -1,5 +1,5 @@
 Summary:	KAKASI - kanji kana simple inverter
-Summary(pl.UTF-8):   KAKASI - prosty konwerter kanji - kana
+Summary(pl.UTF-8):	KAKASI - prosty konwerter kanji - kana
 Name:		kakasi
 Version:	2.3.4
 Release:	2
@@ -30,7 +30,7 @@ słów.
 
 %package devel
 Summary:	KAKASI header files
-Summary(pl.UTF-8):   Pliki nagłówkowe KAKASI
+Summary(pl.UTF-8):	Pliki nagłówkowe KAKASI
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -45,7 +45,7 @@ Pliki nagłówkowe KAKASI.
 
 %package static
 Summary:	KAKASI static library
-Summary(pl.UTF-8):   Statyczna biblioteka KAKASI
+Summary(pl.UTF-8):	Statyczna biblioteka KAKASI
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
@@ -57,7 +57,7 @@ Biblioteka statyczna KAKASI.
 
 %package dict
 Summary:	The base dictionary of KAKASI
-Summary(pl.UTF-8):   Podstawowy słownik KAKASI
+Summary(pl.UTF-8):	Podstawowy słownik KAKASI
 Group:		Applications/Text
 Obsoletes:	kakasidict
 Requires:	%{name} = %{version}-%{release}
