@@ -2,7 +2,7 @@ Summary:	KAKASI - kanji kana simple inverter
 Summary(pl.UTF-8):	KAKASI - prosty konwerter kanji - kana
 Name:		kakasi
 Version:	2.3.4
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/Text
 Source0:	ftp://kakasi.namazu.org/pub/kakasi/stable/%{name}-%{version}.tar.gz
